@@ -1,0 +1,179 @@
+.header{
+    width: 1333px;
+    height: 85px;
+    border: 1px solid black;
+    text-align: center;
+    font-family: 'Philosopher', sans-serif;
+    border-radius: 20px;}
+.header:hover{
+    background-color: rgb(144, 144, 144);
+    color:white;
+}
+.content{
+    width: 500px;
+    height: 140px;
+    border: 1px solid black;
+    float: left;
+    text-align: center;
+    font-family: 'Philosopher', sans-serif;
+    border-radius: 20px;}
+.content:hover{
+    background-color: rgb(144, 144, 144);
+    color: white;
+}
+.content1{
+    width: 833px;
+    height: 140px;
+    border: 1px solid black;
+    text-align: center;
+    margin-left: 500px;
+    background-color: rgb(255, 224, 224);
+    font-family: 'Philosopher', sans-serif;
+    border-radius: 20px;}
+.content2{
+        width: 500px;
+        height: 120px;
+        border: 1px solid black;
+        margin-top: 142px;
+        text-align: center;
+        font-family: 'Philosopher', sans-serif;
+        border-radius: 20px;}
+.content2:hover{
+    background-color: rgb(144, 144, 144);
+    color: white;
+}
+.content3{
+        width: 833px;
+        height: 120px;
+        border: 1px solid black;
+        text-align: center;
+        margin-left: 500px;
+        background-color: rgb(255, 224, 224);
+        font-family: 'Philosopher', sans-serif;
+        border-radius: 20px;}
+
+.content4{
+        width: 500px;
+        height: 65px;
+        border: 1px solid black;
+        text-align: center;
+        font-family: 'Philosopher', sans-serif;
+        border-radius: 20px;}
+        
+.content4:hover{
+    background-color: rgb(144, 144, 144);
+    color:white;
+}
+.content5{
+        width: 500px;
+        height: 65px;
+        border: 1px solid black;
+        text-align: center;
+        font-family: 'Philosopher', sans-serif;
+        border-radius: 20px;}
+.content5:hover{
+    background-color: rgb(144, 144, 144);
+    color:white;
+}
+.content6{
+        width: 833px;
+        height: 65px;
+        margin-left: 501px;
+        border: 1px solid black;
+        text-align: center;
+        font-family: 'Philosopher', sans-serif;
+        border-radius: 20px;}
+.content7{
+    width: 833px;
+    height: 65px;
+    margin-left: 501px;
+    border: 1px solid black;
+    text-align: center;
+    font-family: 'Philosopher', sans-serif;
+    border-radius: 20px;}
+}
+
+.holder{
+        position:relative;   
+        width:500px;
+        height:140px; 
+    }
+.block{
+        position: relative;;
+        left:0;
+        bottom:0;
+        right:0;
+        top:-19;
+        color: white;
+        background-color: rgb(144, 144, 144);
+        display:none;
+    }
+.holder:hover .block{
+        display:block;
+    }
+ 
+.holder1{
+        position:relative;   
+        width:500px;
+        height:120px; 
+    }
+.block1{
+        position:absolute;
+        left:0;
+        bottom:0;
+        right:0;
+        top:0;
+        color: white;
+        background-color: rgb(144, 144, 144);
+        display:none;
+    }
+.holder1:hover .block1{
+        display:block;
+    }
+.bodyColor{
+    background-color: rgb(255, 255, 255);
+    color: rgb(46, 46, 46);
+}
+.holder6{
+    position:relative;   
+    width:500px;
+    height:65px; 
+}
+.block6{
+    position:absolute;
+    left:0;
+    bottom:0;
+    right:0;
+    top:0;
+    color: rgb(255, 255, 255);
+    background-color: rgb(144, 144, 144);
+    display:none;
+}
+.holder6:hover .block6{
+    display:block;
+}
+.holder7{
+    position:relative;   
+    width:500px;
+    height:65px; 
+}
+.block7{
+    position:absolute;
+    left:0;
+    bottom:0;
+    right:0;
+    top:0;
+    color: rgb(255, 255, 255);
+    background-color: rgb(144, 144, 144);
+    display:none;
+}
+.holder7:hover .block7{
+    display:block;
+}
+.position1{
+    min-width: 800px;
+    min-height: 800px;
+    position: fixed;
+    
+    
+}
